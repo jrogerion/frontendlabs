@@ -5,7 +5,7 @@ FROM nginx:latest
 RUN rm -rf /usr/share/nginx/html/*
 
 # Copiar os arquivos do site para dentro do container
-COPY . /usr/share/nginx/html
+COPY ./hello /usr/share/nginx/html
 
 # Expor a porta 80 do container
 EXPOSE 80
