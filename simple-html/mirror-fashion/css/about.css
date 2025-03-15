@@ -1,10 +1,12 @@
-:root{
+:root {
     --color-base: #333333;
+    --color-background-figure: #F2EDED;
+    --color-border-figure: #ccc;
 }
 
 body {
-    color: #333333;
-    font-family: "Roboto", sans-serif;
+    color: var(--color-base);
+    font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     margin-left: auto;
     margin-right: auto;
@@ -12,18 +14,20 @@ body {
 }
 
 h1 {
+    font-family: 'Playfair Display', serif;
     background-image: url(../img/sobre-background.jpg);
     padding: 10px;
 }
 
 h2 {
-    border-bottom: 2px groove #333333;
+    font-family: 'Lora', serif;
+    border-bottom: 2px groove var(--color-base);
     margin-top: 30px;
 }
 
 figure {
-    background-color: #F2EDED;
-    border: 1px solid #ccc;
+    background-color: var(--color-background-figure);
+    border: 1px solid var(--color-border-figure);
     text-align: center;
     padding: 15px;
     margin: 30px;
@@ -40,11 +44,5 @@ p {
 }
 
 ol {
-    ol {
-        list-style-type: decimal;
-      }
-      
+    list-style-type: decimal;
 }
-
-
-
