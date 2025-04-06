@@ -1,0 +1,140 @@
+/* Estilos gerais */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #4a6fa5;
+    color: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+h2 {
+    margin: 5px 0 0;
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+/* Estilos do formulário */
+form {
+    background-color: white;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    font-weight: bold;
+    color: #4a6fa5;
+    padding: 0 10px;
+    font-size: 1.1em;
+}
+
+/* Estilos dos campos */
+label {
+    display: inline-block;
+    width: 180px;
+    margin-right: 10px;
+    font-weight: 500;
+    vertical-align: top;
+}
+
+.carregar-foto {
+    position: relative;
+    display: inline-block;
+    width: auto;
+}
+
+.upload-foto {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: 0;
+    cursor: pointer;
+}
+
+
+
+.carregar-foto label[for="foto"] {
+    display: inline-block;
+    background-color: #4a6fa5;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    width: auto;
+    text-align: center;
+    margin: 0;
+}
+
+.carregar-foto label[for="foto"]:hover {
+    background-color: #3a5a8f;
+}
+
+/* Estilos dos botões */
+
+.botoes-formulario {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+input[type="reset"] {
+    background-color: #F44336;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 1em;
+    transition: background-color 0.3s;
+}
+
+
+input[type="submit"]:hover {
+    background-color: #45A049;
+}
+
+input[type="reset"]:hover {
+    background-color: #D32F2F;
+}
+
