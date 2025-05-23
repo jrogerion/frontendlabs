@@ -130,3 +130,12 @@ img {
         padding-left: 30px;
     }
 }
+
+/* Responsabilidade Smartphones*/
+@media (max-width: 480px) {
+ 
+    /* Ocultado o rodapé */
+    footer img {
+        display: none;
+    }
+}

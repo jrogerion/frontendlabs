@@ -1,0 +1,30 @@
+:root {
+    --primary-color: #FF9900;
+    --secondary-color: #232f3e;
+    --background-color: #f9f9f9;
+    --font-family: Verdana, Geneva, Tahoa;
+    --font-size-medium: medium;
+    --font-size-large: large;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: auto;
+}
+
+body {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+    font-family: var(--font-family);
+}
+
+fieldset {
+    margin-bottom: 10px;;
+    background-color: var(--background-color);
+    border-radius: 5px;;
+}
+
+fieldset legend {
+    font-weight: bold;
+}
